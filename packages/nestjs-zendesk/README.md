@@ -17,9 +17,9 @@ import * as zendesk from "node-zendesk";
 @Module({
   imports: [
     zendeskModule.forRoot({
-      username: "name",
+      username: "email@example.com",
       token: "token",
-      remoteUri: "http://example.com",
+      remoteUri: "https://[subdomain].zendesk.com/api/v2/",
     }),
   ],
 })
